@@ -2,6 +2,11 @@ const students = require('../students.json');
 
 //Írj függvényt annak kiszűrésére, hogy a tanulók melyik emeleten laknak.
 function f1(floor) {
-   //TODO
+   //TODO 
+   
+      const floorStudents = studentsOnFloor();     
+      console.log(`Emeleteken lakó tanulók száma: ${floorStudents.length}`);
 }
+
+console.log(F1());
 module.exports = f1;
