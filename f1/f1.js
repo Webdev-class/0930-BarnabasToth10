@@ -8,5 +8,5 @@ function f1(floor) {
       console.log(`Emeleteken lakó tanulók száma: ${floorStudents.length}`);
 }
 
-console.log(F1());
+console.log(f1());
 module.exports = f1;
